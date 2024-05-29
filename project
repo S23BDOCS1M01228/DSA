@@ -1,0 +1,26 @@
+Project Description
+Our project is about splitting bill of a restaurant, among the friends. It asks for the number of friends and 
+their names. It asks who paid the bill (payer) and who the bill was for (payee), asks for the total bill 
+amount, calculates how much each friend needs to pay or collect and displays a report showing each 
+friend's name, balance, and whether they need to pay or collect
+ Classes:
+1. Friend: Represents a friend with a name and a balance (initially set to 0). It has methods to get the 
+name and balance, and to add an amount to the balance.
+2. BillSplitter: Manages a group of friends and calculates the bill split. It has methods to:
+ - Initialize with a number of friends and prompt for their names.
+ - Calculate the bill split based on a payer, payee, and total bill amount.
+ - Display a report showing each friend's name, balance, and whether they need to collect or pay.
+ Main Function:
+1. Prompts the user to enter the number of friends.
+2. Creates a BillSplitter object with the specified number of friends.
+3. Prompts the user to enter the names of the payer and payee, and the total bill amount.
+4. Calls the calculateBalance method to split the bill.
+5. Calls the displayReport method to show the bill split report.
+ Program Flow:
+1. The program starts by prompting the user to enter the number of friends.
+2. It then creates a BillSplitter object and prompts the user to enter the names of the friends.
+3. The user is then prompted to enter the names of the payer and payee, and the total bill amount.
+4. The program calculates the bill split using the calculateBalance method.
+5. Finally, it displays the bill split report using the displayReport method.
+Here is a link of my Project:
+https://github.com/S23BDOCS1M01228/DSA-Project.g
